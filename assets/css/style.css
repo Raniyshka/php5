@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container{
+    margin: 100px auto;
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+form input{
+    padding: 20px;
+}
+
+form input[type='submit']{
+    padding: 10px;
+    background-color: bisque;
+    color: rgb(77, 71, 71);
+    border: none;
+    margin-bottom: 10px;
+}
+
+h2{
+    color: rgb(77, 71, 71);
+    margin-bottom: 20px;
+}
+
+h4{
+    margin-top: 30px;
+    color: rgb(77, 71, 71);
+}
